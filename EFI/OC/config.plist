@@ -8,17 +8,17 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-EC-USBX.aml</string>
+				<string>pugin-type=1</string>
 				<key>Path</key>
-				<string>SSDT-EC-USBX.aml</string>
+				<string>SSDT-PLUG.aml</string>
 				<key>Enabled</key>
 				<true/>
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-PLUG.aml</string>
+				<string>Fix EC and USB Power</string>
 				<key>Path</key>
-				<string>SSDT-PLUG.aml</string>
+				<string>SSDT-EC-USBX.aml</string>
 				<key>Enabled</key>
 				<true/>
 			</dict>
@@ -727,6 +727,8 @@
 		<array>
 			<string>HfsPlus.efi</string>
 			<string>OpenRuntime.efi</string>
+			<string>HfsPlusLegacy.efi</string>
+			<string>OpenUsbKbDxe.efi</string>
 		</array>
 		<key>Input</key>
 		<dict>
