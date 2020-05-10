@@ -341,6 +341,22 @@
 				<key>BundlePath</key>
 				<string>WhateverGreen.kext</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+				<key>Enabled</key>
+				<true/>
+				<key>MinKernel</key>
+				<string></string>
+				<key>ExecutablePath</key>
+				<string></string>
+				<key>BundlePath</key>
+				<string>CPUFriendDataProvider.kext</string>
+			</dict>
 		</array>
 		<key>Block</key>
 		<array>
@@ -488,7 +504,8 @@
 	<key>Misc</key>
 	<dict>
 		<key>BlessOverride</key>
-		<array/>
+		<array>
+		</array>
 		<key>Boot</key>
 		<dict>
 			<key>ConsoleAttributes</key>
