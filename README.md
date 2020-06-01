@@ -1,4 +1,4 @@
-# opencore 0.5.8 - i5 6500 - rx580
+# opencore 0.5.9 - i5 6500 - rx580
 
 * Motherboard: MSI b250i pro ac
 * GPU: Sapphire pulse rx580 4GB
@@ -12,3 +12,7 @@ All works even airdrop
 # update May 30, 2020,
 
 * Add BCM943224PCIEBT2 card with m.2 adapter
+
+# update June 1, 2020,
+
+* Upgrade to OC 0.5.9
